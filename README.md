@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 this dir for the main training and test, you can train by your self after unzip our provided data or just load
 our model to test performance
 training code example: python train.py --gpu_list 0 1 2 3 --add_note T1 (T1/T2/T3 to select the model type)
@@ -41,3 +42,7 @@ python evaluation.py --gpu_list 0 --add_note T2_test --gpath ./models/Model2Gen.
 python evaluation.py --gpu_list 0 --add_note T3_test --gpath ./models/Model3Gen.pth --dpath ./models/Model3Dis.pth
 
 python evaluation.py --gpu_list 0 --add_note T3_test --gpath ./models/Model3GenGraph.pth --dpath ./models/Model3DisGraph.pth
+=======
+# PSCN-CNNGCN
+Power system communicate network
+>>>>>>> 250cc200a3353a30f79a031bf826ecad0acbe021
